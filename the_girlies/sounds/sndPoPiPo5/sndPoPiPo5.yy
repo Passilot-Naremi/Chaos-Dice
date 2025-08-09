@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sndPoPiPo5",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.31345,
+  "name":"sndPoPiPo5",
+  "parent":{
+    "name":"popipo",
+    "path":"folders/Sounds/popipo.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sndPoPiPo5.mp3",
+  "type":0,
+  "volume":1.0,
+}

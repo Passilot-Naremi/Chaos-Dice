@@ -1,0 +1,1 @@
+game_change("/../", "-game data.win");

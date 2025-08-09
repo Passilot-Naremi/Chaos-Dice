@@ -1,0 +1,2 @@
+CheckAnimation();
+if (!enabled) exit;

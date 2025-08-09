@@ -1,0 +1,1 @@
+scrSetProjectileXScale(oPlayerKaga);

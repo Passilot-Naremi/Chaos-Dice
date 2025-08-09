@@ -1,0 +1,1 @@
+game_change("/the_girlies", "-game data.win");

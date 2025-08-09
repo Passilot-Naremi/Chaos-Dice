@@ -1,0 +1,13 @@
+/// @description Insert description here
+// You can write your code in this editor
+// have an amogu ඞ
+hp = 8;
+blocking = false;
+showering = false;
+
+itemSeek = 0;
+inventory[0] = pointer_null;
+inventory[1] = pointer_null;
+inventory[2] = pointer_null;
+inventory[3] = pointer_null;
+inventory[4] = pointer_null;

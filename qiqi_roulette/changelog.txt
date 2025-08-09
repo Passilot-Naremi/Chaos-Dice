@@ -1,0 +1,9 @@
+02.05.2025
+starting point: made the tile screen, a blackscreen-placeholder for the main menu room and a prototype for the gameplay room (bg sketch, table object, qiq object). qiq changes sprite to qiqroll when r is pressed. that is a temporary feature btw make sure to remove it later on
+i finna make adjust bslap sprite as well so that it's inline with the other two qiq sprites.
+i'm thinking maybe the game will have a health system and a sanity system that can be altered by whatever dice qiqi rolls. also other wacky shit happens sometimes like you actually win the 50/50 and get cucklecchino or bongli. sometimes maybe your screen is flooded with caramelldansen or maybe you get jumped by freddy
+you may also acquire items that can replenish your meters or completely fuck your run over
+
+07.05.2025
+ok so i came back to do some shit
+i made the caramelldansen flood, fredbear jumpscare, item drop and arlemommy-step-on-me. i also implemented the sushiroll and hprefill items, as well as a prototype for the block item for arlemommy so you dont really get cucked over like that every time but i gotta make it actually block shit

@@ -1,0 +1,1 @@
+sprite_index = global.move1Icon[oBattleModerator.activeUnit];

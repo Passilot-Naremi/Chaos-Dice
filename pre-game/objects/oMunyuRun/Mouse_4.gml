@@ -1,0 +1,1 @@
+game_change("/munyu_run", "-game data.win");

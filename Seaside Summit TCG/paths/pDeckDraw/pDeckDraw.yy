@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"pDeckDraw",
+  "closed":false,
+  "kind":0,
+  "name":"pDeckDraw",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":893.0,"y":1494.0,},
+    {"speed":100.0,"x":593.0,"y":2560.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

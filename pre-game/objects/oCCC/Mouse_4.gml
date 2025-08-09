@@ -1,0 +1,1 @@
+//game_change("/ccc", "-game data.win");

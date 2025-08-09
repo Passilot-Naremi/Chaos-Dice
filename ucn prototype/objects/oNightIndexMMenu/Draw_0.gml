@@ -1,0 +1,1 @@
+draw_text_transformed(148, 550, "Night " + string(global.currentnight+1), 2, 2, 0)

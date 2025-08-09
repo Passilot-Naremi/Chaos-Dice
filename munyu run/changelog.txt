@@ -1,0 +1,8 @@
+21.04.2025
+ok so i decided to start doing changelogs again lol
+basically what i have until now is as follows:
+- player munyu
+- enemies: yumyum, uunu, nunu, nuyu, uyun
+- 12 core levels + hell level
+- solid objects: solid, piston, spawned, hidden, not-so-solid, joke solid (this one has no functionality yet but i'm planning to make like a vasebreaker minigame with it so it spawns random shit)
+- other objects: ladder, spikes, flag, secret flag (brings you to hell), hell flag (takes you out of hell)
