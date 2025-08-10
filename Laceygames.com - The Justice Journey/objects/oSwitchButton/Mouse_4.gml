@@ -1,2 +1,4 @@
-oBattleModerator.alarm[0] = 2;
-oBattleModerator.switching = true;
+if !oBattleModerator.switching {
+	oBattleModerator.switching = true;
+	// oBattleModerator.point = 1;
+}
