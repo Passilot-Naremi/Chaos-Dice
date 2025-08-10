@@ -20,6 +20,18 @@ if (sprite_index != sNothing) {
 			global.team[global.selectedSlot] = 2;
 			break;
 		}
+		case sCecil: {
+			global.team[global.selectedSlot] = 3;
+			break;
+		}
+		case sMelanie: {
+			global.team[global.selectedSlot] = 4;
+			break;
+		}
+		case sAdam: {
+			global.team[global.selectedSlot] = 5;
+			break;
+		}
 	}
 }
 instance_destroy(oUnitChoiceOverlay);

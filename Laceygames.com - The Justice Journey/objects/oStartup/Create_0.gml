@@ -4,6 +4,8 @@
 
 randomize();
 
+#region // unit initializations
+#region // lacey
 global.units[0] = sLacey;
 global.copies[0] = 0;
 global.rarity[0] = 1;
@@ -11,7 +13,10 @@ global.level[0] = 0;
 global.battleUnits[0] = oBattleLacey;
 global.move1Icon[0] = sSoundwave;
 global.move2Icon[0] = sBurnUp;
-
+global.hp[0] = 100;
+global.maxhp[0] = 100;
+#endregion
+#region // maisie
 global.units[1] = sMaisie;
 global.copies[1] = 0;
 global.rarity[1] = 0;
@@ -19,29 +24,44 @@ global.level[1] = 0;
 global.battleUnits[1] = oBattleMaisie;
 global.move1Icon[1] = sTemplateIcon;
 global.move2Icon[1] = sTemplateIconEX;
-
+global.hp[1] = 100;
+global.maxhp[1] = 230;
+#endregion
+#region // jay
 global.units[2] = sJay;
 global.copies[2] = 0;
 global.rarity[2] = 3;
 global.level[2] = 0;
-global.battleUnits[2] = oBattleLacey;
+global.battleUnits[2] = oBattlePilly;
 global.move1Icon[2] = sTemplateIcon;
 global.move2Icon[2] = sTemplateIconEX;
+global.hp[2] = 100;
+global.maxhp[2] = 100;
+#endregion
 
 global.units[3] = sCecil;
 global.copies[3] = 0;
 global.rarity[3] = 2;
 global.level[3] = 0;
+global.battleUnits[3] = oBattlePilly;
+global.move1Icon[3] = sTemplateIcon;
+global.move2Icon[3] = sTemplateIconEX;
 
 global.units[4] = sMelanie;
 global.copies[4] = 0;
 global.rarity[4] = 2;
 global.level[4] = 0;
+global.battleUnits[4] = oBattlePilly;
+global.move1Icon[4] = sTemplateIcon;
+global.move2Icon[4] = sTemplateIconEX;
 
 global.units[5] = sAdam;
 global.copies[5] = 0;
 global.rarity[5] = 0;
 global.level[5] = 0;
+global.battleUnits[5] = oBattlePilly;
+global.move1Icon[5] = sTemplateIcon;
+global.move2Icon[5] = sTemplateIconEX;
 
 global.units[6] = sJared;
 global.copies[6] = 0;
@@ -119,8 +139,15 @@ global.rarity[20] = 5;
 global.level[20] = 0;
 
 global.units[21] = sNothing;
+
+
 global.units[22] = sNothing;
+
+
 global.units[23] = sNothing;
+
+
+#endregion
 
 // rare
 global.req[0][0] = 1;
