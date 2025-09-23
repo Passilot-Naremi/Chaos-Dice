@@ -1,0 +1,1 @@
+audio_play_sound(sndShockwaveHit, 1, 0);
