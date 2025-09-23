@@ -10,8 +10,8 @@
   "name":"oDeckSlot1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"deckslots",
+    "path":"folders/Objects/deckslots.yy",
   },
   "parentObjectId":null,
   "persistent":false,
