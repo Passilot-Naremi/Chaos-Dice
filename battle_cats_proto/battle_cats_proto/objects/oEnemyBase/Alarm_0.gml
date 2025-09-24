@@ -1,0 +1,1 @@
+instance_create_layer(oEnemyBase.x, oEnemyBase.y, "Instances_2", oEnemy_000)

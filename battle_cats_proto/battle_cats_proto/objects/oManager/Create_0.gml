@@ -9,6 +9,7 @@ global.deck[7] = -1
 
 global.selectedSlot = -1
 
+#region // deck/battle icons
 global.icons[0] = sIcon_Cat
 global.icons[1] = sIcon_Wall
 global.icons[2] = sIcon_Rocker
@@ -42,3 +43,14 @@ global.icons[28] = sDeckSlot
 global.icons[29] = sDeckSlot
 global.icons[30] = sDeckSlot
 global.icons[31] = sIcon_CHEATER
+#endregion
+
+#region // units
+global.units[0] = oUnit_0_000;
+global.units[1] = oUnit_0_001;
+global.units[2] = oUnit_0_002;
+#endregion
+
+#region // attack sprites
+global.atkspr[0] = sAttack_Cat;
+#endregion
