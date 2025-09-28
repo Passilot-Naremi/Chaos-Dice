@@ -6,8 +6,8 @@
   "name":"oHomeBase",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"battle",
+    "path":"folders/Objects/battle.yy",
   },
   "parentObjectId":null,
   "persistent":false,

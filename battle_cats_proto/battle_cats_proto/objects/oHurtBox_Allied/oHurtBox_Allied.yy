@@ -9,8 +9,8 @@
   "name":"oHurtBox_Allied",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"battle",
+    "path":"folders/Objects/battle.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -35,5 +35,5 @@
     "path":"sprites/sHurtBox/sHurtBox.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

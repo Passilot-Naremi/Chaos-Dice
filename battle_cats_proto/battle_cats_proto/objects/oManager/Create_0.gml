@@ -1,3 +1,5 @@
+randomize()
+
 global.deck[0] = -1
 global.deck[1] = -1
 global.deck[2] = -1
@@ -49,8 +51,25 @@ global.icons[31] = sIcon_CHEATER
 global.units[0] = oUnit_0_000;
 global.units[1] = oUnit_0_001;
 global.units[2] = oUnit_0_002;
+global.units[3] = oUnit_0_003;
+global.units[4] = oUnit_0_004;
+global.units[5] = oUnit_0_005;
+#endregion
+
+#region // base sprites
+global.spr[0] = sCat;
+global.spr[1] = sWallCat;
+global.spr[2] = sRamen;
+global.spr[3] = sThief;
+global.spr[4] = sGunslinger;
+global.spr[5] = sPirate;
 #endregion
 
 #region // attack sprites
 global.atkspr[0] = sAttack_Cat;
+global.atkspr[1] = sAttack_Wall;
+global.atkspr[2] = sAttack_Ramen;
+global.atkspr[3] = sAttack_Thief;
+global.atkspr[4] = sAttack_Gunslinger;
+global.atkspr[5] = sAttack_Pirate;
 #endregion

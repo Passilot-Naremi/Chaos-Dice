@@ -1,1 +1,1 @@
-hp -= 10;
+hp -= oHurtBox_Allied.dmg;

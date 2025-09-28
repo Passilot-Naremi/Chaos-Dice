@@ -1,15 +1,23 @@
-function scrGroundUnitMovement(spd, range, cd) {
-	if !place_meeting(x - range, y, oEnemy) x -= spd;
+function scrGroundUnitMovement(spd, range, cd, delay, anim_end, dmg) {
+	if !place_meeting(x - range, y, oEnemy) && !attacking {
+		x -= spd;
+	}
 	else {
-		sprite_index = global.atkspr[index]
+		if !onCD {
+			sprite_index = global.atkspr[index]
+			attacking = true
+		}
 		if sprite_index == global.atkspr[index] {
-			if image_index == 25 {
-				sprite_index = sCat
+			if image_index == anim_end {
+				sprite_index = global.spr[index]
+				attacking = false
 				alarm[1] = cd*fps
+				onCD = true;
 			}
-			else if image_index == 18 {
+			if image_index == delay {
 				h = instance_create_depth(x - sprite_width/2, y, depth, oHurtBox_Allied)
 				h.image_xscale = range
+				h.dmg = dmg
 			}
 		}
 	}

@@ -8,8 +8,8 @@
   "name":"oGroundUnit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"units",
+    "path":"folders/Objects/battle/units.yy",
   },
   "parentObjectId":null,
   "persistent":false,
