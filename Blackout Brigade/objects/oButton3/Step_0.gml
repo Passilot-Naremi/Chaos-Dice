@@ -1,0 +1,1 @@
+if !global.camOn instance_destroy();

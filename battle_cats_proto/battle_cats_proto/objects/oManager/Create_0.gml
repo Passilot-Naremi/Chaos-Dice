@@ -54,6 +54,7 @@ global.units[2] = oUnit_0_002;
 global.units[3] = oUnit_0_003;
 global.units[4] = oUnit_0_004;
 global.units[5] = oUnit_0_005;
+global.units[6] = oUnit_0_006;
 #endregion
 
 #region // base sprites
@@ -63,6 +64,7 @@ global.spr[2] = sRamen;
 global.spr[3] = sThief;
 global.spr[4] = sGunslinger;
 global.spr[5] = sPirate;
+global.spr[6] = sUrurun;
 #endregion
 
 #region // attack sprites
@@ -72,4 +74,5 @@ global.atkspr[2] = sAttack_Ramen;
 global.atkspr[3] = sAttack_Thief;
 global.atkspr[4] = sAttack_Gunslinger;
 global.atkspr[5] = sAttack_Pirate;
+global.atkspr[6] = sAttack_Ururun;
 #endregion

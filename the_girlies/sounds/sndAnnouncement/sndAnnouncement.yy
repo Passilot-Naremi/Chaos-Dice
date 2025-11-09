@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.253875,
+  "duration":1.2538775,
   "name":"sndAnnouncement",
   "parent":{
     "name":"Sounds",

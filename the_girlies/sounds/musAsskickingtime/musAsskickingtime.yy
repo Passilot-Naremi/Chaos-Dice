@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":15.046525,
+  "duration":15.046531,
   "name":"musAsskickingtime",
   "parent":{
     "name":"Music",

@@ -1,0 +1,1 @@
+x = oCamera.x + 480

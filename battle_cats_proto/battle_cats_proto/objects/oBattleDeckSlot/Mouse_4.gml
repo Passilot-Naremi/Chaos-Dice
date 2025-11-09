@@ -1,1 +1,2 @@
-instance_create_layer(oHomeBase.x, oHomeBase.y, "Instances_2", global.units[unit])
+instance_create_layer(0, 0, "overlay", oPlacementOverlay)
+global.selectedUnit = unit

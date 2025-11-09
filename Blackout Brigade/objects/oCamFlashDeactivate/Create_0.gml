@@ -1,0 +1,1 @@
+oCamBar.clickable = false;

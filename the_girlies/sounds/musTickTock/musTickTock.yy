@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":12.329775,
+  "duration":12.329796,
   "name":"musTickTock",
   "parent":{
     "name":"Music",

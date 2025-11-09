@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":10.1355,
+  "duration":10.13551,
   "name":"musRevolving",
   "parent":{
     "name":"Music",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.011425,
+  "duration":2.0114286,
   "name":"sndMetalBuzz",
   "parent":{
     "name":"Sounds",

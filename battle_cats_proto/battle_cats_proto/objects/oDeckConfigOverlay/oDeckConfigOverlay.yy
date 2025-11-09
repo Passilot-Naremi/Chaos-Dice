@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sDeckConfigOverlay",
-    "path":"sprites/sDeckConfigOverlay/sDeckConfigOverlay.yy",
+    "name":"sOverlay",
+    "path":"sprites/sOverlay/sOverlay.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,0 +1,1 @@
+if global.camOn = false instance_destroy()

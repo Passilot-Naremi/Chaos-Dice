@@ -1,0 +1,4 @@
+if global.selectedUnit != -1 {
+	instance_create_layer(x, set+random_range(0, 48), "Instances_2", global.units[global.selectedUnit])
+	instance_destroy(oPlacementOverlay)
+}

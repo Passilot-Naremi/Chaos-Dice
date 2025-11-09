@@ -1,0 +1,1 @@
+oLeechAI.pos = 0;
