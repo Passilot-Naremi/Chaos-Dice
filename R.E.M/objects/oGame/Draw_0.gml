@@ -14,6 +14,7 @@ if instance_exists(oPlayer) {
 	draw_text(oCamera.x, oCamera.y+128, "Jumping: " + string(oPlayer.jump));
 	draw_text(oCamera.x, oCamera.y+144, "On a wall: " + string(oPlayer.onAWall));
 	draw_text(oCamera.x, oCamera.y+160, "Direction: " + string(oPlayer.xDirection));
+	draw_text(oCamera.x, oCamera.y+176, "Can Attack: " + string(oPlayer.canattack));
 	
 }
 else if instance_exists(oNeoPlayer) {

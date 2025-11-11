@@ -1,0 +1,1 @@
+hitByNeedle = false;

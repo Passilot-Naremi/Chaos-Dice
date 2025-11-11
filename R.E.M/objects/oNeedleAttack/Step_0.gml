@@ -1,0 +1,3 @@
+x = oPlayer.x;
+y = oPlayer.y;
+if image_index == 4 instance_destroy();

@@ -1,12 +1,12 @@
 xDirection = (keyboard_check(ord("D")) || keyboard_check(vk_right)) - (keyboard_check(ord("A")) || keyboard_check(vk_left));
 jump = keyboard_check_pressed(vk_up) || keyboard_check_pressed(vk_space);
-onTheGround = place_meeting(x, y + 1, oSolid);
-onAWall = place_meeting(x-5, y, oSolid) - place_meeting(x+5, y, oSolid);
+onTheGround = place_meeting(x, y + 1, oCollision);
+onAWall = place_meeting(x-5, y, oCollision) - place_meeting(x+5, y, oCollision);
 
 mvtLocked = max(mvtLocked - 1, 0);
 if spd < 3 spd += inc;
 
-if (onAWall != 0) ySpeed = min(ySpeed + 1, 1);
+if (onAWall != 0) ySpeed = min(ySpeed + 0.1, 0.5);
 else ySpeed = min(ySpeed + 1, 6);
 
 if (mvtLocked <= 0) {
@@ -15,12 +15,12 @@ if (mvtLocked <= 0) {
 
 	if (jump) {
 		if (onTheGround) {
-			ySpeed = -6;
+			ySpeed = -7;
 			vinc = 3;
 		} 
 	
 		if (onAWall != 0) {
-			ySpeed = -9;
+			ySpeed = -6;
 			xSpeed = onAWall * 3;
 			mvtLocked = 10;
 		}
@@ -38,9 +38,9 @@ if (onTheGround) {
 	sprite_index = sPlayerJump;
 }
 
-if (place_meeting(x + xSpeed, y, oSolid)) { 
+if (place_meeting(x + xSpeed, y, oCollision)) { 
 	
-	while (!place_meeting(x + sign(xSpeed), y, oSolid)) {
+	while (!place_meeting(x + sign(xSpeed), y, oCollision)) {
 		x += sign(xSpeed);
 	}
 	xSpeed = 0; 
@@ -49,9 +49,9 @@ if (place_meeting(x + xSpeed, y, oSolid)) {
 x += xSpeed;
 
 
-if (place_meeting(x, y + ySpeed, oSolid)) { 
+if (place_meeting(x, y + ySpeed, oCollision)) { 
 	
-	while (!place_meeting(x, y + sign(ySpeed), oSolid)) {
+	while (!place_meeting(x, y + sign(ySpeed), oCollision)) {
 		y += sign(ySpeed);
 	}
 	
