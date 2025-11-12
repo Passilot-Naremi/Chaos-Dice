@@ -3,8 +3,8 @@
 // have an amogu ඞ
 xDirection = (keyboard_check(ord("D")) || keyboard_check(vk_right)) - (keyboard_check(ord("A")) || keyboard_check(vk_left));
 jump = keyboard_check_pressed(vk_up) || keyboard_check_pressed(vk_space);
-onTheGround = place_meeting(x, y + 1, oSolid);
-onAWall = place_meeting(x-5, y, oSolid) - place_meeting(x+5, y, oSolid);
+onTheGround = place_meeting(x, y + 1, oCollision);
+onAWall = place_meeting(x-5, y, oCollision) - place_meeting(x+5, y, oCollision);
 
 ysp += 0.1
 xsp = 0;
@@ -25,7 +25,7 @@ if mvtLocked <= 0 {
 		xsp = transport;
 	}
 
-	if (place_meeting(x, y+1, oSolid)) {
+	if (place_meeting(x, y+1, oCollision)) {
 	    ysp = 0;
 		image_speed = 1;
 		onTheGround = true;
@@ -58,18 +58,18 @@ if (onTheGround) {
 	sprite_index = sPlayerJump;
 }
 
-if (place_meeting(x, y-1, oSolid)) ysp = 1;
+if (place_meeting(x, y-1, oCollision)) ysp = 1;
 
-if (place_meeting(x + xsp, y, oSolid)) { 
-	while (!place_meeting(x + sign(xsp), y, oSolid)) {
+if (place_meeting(x + xsp, y, oCollision)) { 
+	while (!place_meeting(x + sign(xsp), y, oCollision)) {
 		x += sign(xsp);
 	}
 	xsp = 0; 
 }
 x += xsp;
 
-if (place_meeting(x, y + ysp, oSolid)) { 
-	while (!place_meeting(x, y + sign(ysp), oSolid)) {
+if (place_meeting(x, y + ysp, oCollision)) { 
+	while (!place_meeting(x, y + sign(ysp), oCollision)) {
 		y += sign(ysp);
 		show_debug_message("INCREMENTING")
 	}
@@ -77,4 +77,4 @@ if (place_meeting(x, y + ysp, oSolid)) {
 }
 y += ysp;
 
-//move_and_collide(xsp, ysp, oSolid);
+//move_and_collide(xsp, ysp, oCollision);
