@@ -8,8 +8,8 @@
   "name":"oBridge_Fake",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"solids",
+    "path":"folders/Objects/solids.yy",
   },
   "parentObjectId":null,
   "persistent":false,

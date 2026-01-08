@@ -7,3 +7,5 @@ for (var i = 0; i < 8; i++) {
 }
 
 global.selectedUnit = -1
+
+global.money = 0;

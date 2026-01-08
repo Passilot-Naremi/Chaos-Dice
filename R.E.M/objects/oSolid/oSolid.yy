@@ -6,8 +6,8 @@
   "name":"oSolid",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"solids",
+    "path":"folders/Objects/solids.yy",
   },
   "parentObjectId":{
     "name":"oCollision",

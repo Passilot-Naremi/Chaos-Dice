@@ -9,8 +9,8 @@
   "name":"oNeedleAttack",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"attacks",
+    "path":"folders/Objects/player/attacks.yy",
   },
   "parentObjectId":null,
   "persistent":false,

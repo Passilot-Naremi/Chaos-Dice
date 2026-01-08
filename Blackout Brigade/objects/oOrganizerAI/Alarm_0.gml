@@ -40,7 +40,9 @@ if c <= global.organizerAI {
 			}
 			else {
 				pos = 0;
+				stay = 3;
 				instance_create_layer(0, 0, "Instances_5", oOrganizer_Office);
+				oOrganizer_Office.alarm[0] = 15*fps;
 			}
 			break;
 		}

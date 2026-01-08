@@ -1,5 +1,0 @@
-if sprint {
-	sprinting = true;
-	image_speed = 1.5;
-	inc = 0.5;
-}

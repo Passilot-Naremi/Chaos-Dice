@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"find_path_clear_db",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"find_path_clear_db",
+  "parent":{
+    "name":"pathfinding",
+    "path":"folders/Scripts/pathfinding.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

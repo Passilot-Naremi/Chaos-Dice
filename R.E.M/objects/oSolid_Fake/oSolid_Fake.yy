@@ -9,8 +9,8 @@
   "name":"oSolid_Fake",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"solids",
+    "path":"folders/Objects/solids.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSolid",
-    "path":"sprites/sSolid/sSolid.yy",
+    "name":"sSolid_Fake",
+    "path":"sprites/sSolid_Fake/sSolid_Fake.yy",
   },
   "spriteMaskId":null,
   "visible":false,

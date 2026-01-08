@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"pathing_checkcell",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"pathing_checkcell",
+  "parent":{
+    "name":"internal",
+    "path":"folders/Scripts/pathfinding/internal.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

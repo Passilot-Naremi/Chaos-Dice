@@ -1,1 +1,0 @@
-sprinting = false; image_speed = 1; inc = 0; transport = 1;

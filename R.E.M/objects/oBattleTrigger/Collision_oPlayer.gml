@@ -1,0 +1,1 @@
+instance_create_layer(x-48, y+80,"Instances_1", oGate)

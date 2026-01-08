@@ -37,8 +37,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"units",
-    "path":"folders/Sprites/units.yy",
+    "name":"attack",
+    "path":"folders/Sprites/units/attack.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

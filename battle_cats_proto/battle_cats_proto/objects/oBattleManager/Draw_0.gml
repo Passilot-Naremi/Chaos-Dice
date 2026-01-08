@@ -1,0 +1,1 @@
+draw_text_transformed(0, 0, floor(global.money), 2, 2, 0)

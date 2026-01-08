@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"find_path_cache",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"find_path_cache",
+  "parent":{
+    "name":"internal",
+    "path":"folders/Scripts/pathfinding/internal.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

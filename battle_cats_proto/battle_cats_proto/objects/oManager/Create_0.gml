@@ -1,5 +1,7 @@
 randomize()
 
+global.efficiency = 1000;
+
 global.deck[0] = -1
 global.deck[1] = -1
 global.deck[2] = -1
@@ -75,4 +77,14 @@ global.atkspr[3] = sAttack_Thief;
 global.atkspr[4] = sAttack_Gunslinger;
 global.atkspr[5] = sAttack_Pirate;
 global.atkspr[6] = sAttack_Ururun;
+#endregion
+
+#region // costs
+global.cost[0] = 75;
+global.cost[1] = 150;
+global.cost[2] = 210;
+global.cost[3] = 200;
+global.cost[4] = 340;
+global.cost[5] = 175;
+global.cost[6] = 1000;
 #endregion

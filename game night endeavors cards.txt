@@ -1,0 +1,196 @@
+TURN STRUCTURE:
+pre-roll card-based events
+roll dice (1-20) * multiplier + card-based modifiers = score
+post-roll card-based events
+
+ROUND STRUCTURE:
+select 1 of 3 random cards, of 3 possible rarity tiers
+turns (3 by default, can be influenced by certain cards)
+if successful, shop
+
+CARDS
+B-TIER: OBJECTS
+
+sushi roll
+ugly christmas sweater
+coffee bean
+colored eraser
+bookmark
+jack-o-lantern
+banana peel
+rubber band
+scented candle
+grandfather clock
+flashlight
+measuring cup
+trash bag
+stapler
+umbrella
+jar of pickels
+egg
+mochi box
+eggo waffles
+instant ramen
+hot sauce
+tofu
+stinky tofu
+fortune cookie
+cheddar cheese
+mozzarella cheese
+piggy bank
+oven mitt
+vending machine
+speed bump
+swing set
+wheelbarrow
+
+A-TIER: NOTIONS
+time zones
+divine intervention
+remote work
+crowd psychology
+urban legend
+referees' discretion
+home-turf advantage
+burnout
+pilgrimage
+afterlife
+impostor syndrome
+salary cap
+survivorship bias
+playoff brackets
+redemption arc
+initiation rite
+pay-to-win
+skill decay
+
+S-TIER: CHARACTERS
+HOLLOW KNIGHT
+vessel
+hornet
+quirrel
+grimm
+tiso
+zote
+bretta
+little fool
+
+ZZZ
+billy
+jufuf
+seed
+mibibi
+lycaon
+soukaku
+manato
+nicole
+dialyn
+yanagi
+seth
+rina
+ye shunguang
+Zhao
+jane
+burnice
+
+GENSHIN
+aether
+lumine
+paimon
+hu tao
+gaming
+mualani
+qiqi
+mavuika
+wanderer
+faruzan
+zhongli
+furina
+arlecchino
+itto
+raiden
+
+GACHA LIFE
+neo
+yume
+air ria
+hooker
+burner
+vuuna
+scramble
+none
+iona
+steelplate
+ambient garlic
+quinine
+control callum
+stardust tsubaki
+shadow glenn
+rusty
+rusty: monochrome
+silvertip
+argus
+beehive bart
+unova
+archeo
+
+YANDERE SIM
+ayano
+info
+taro
+shiromi
+yaku
+midori
+hanako
+kaga
+megami
+kokona
+musume
+fungirl
+nemesis
+redflower
+
+DDLC
+haruki
+sayori
+yuri
+natsuki
+monika
+amy
+libitina
+dr. revival
+puppetsuki
+chad
+sloe
+mio
+kotonoha
+rain
+n.sane sayori
+n.sane yuri
+n.sane natuski
+n.sane monika
+
+FORTNITE
+prodigy
+vivi
+krissy
+bushranger
+crystal
+cloaked shadow
+hana
+joltara
+lennox rose
+megalo don
+midas
+peely
+skull trooper
+skye
+striped soldier
+terns
+the machinist
+tsuki
+zoe clash
+
+GREENGLASS HOUSE
+
+

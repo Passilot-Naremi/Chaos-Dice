@@ -1,0 +1,1 @@
+global.money += global.efficiency*0.1;

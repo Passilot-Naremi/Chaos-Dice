@@ -72,3 +72,5 @@ else {
 		else sprite_index = global.screens[global.setCam];
 	}
 }
+
+if disabled instance_create_layer(0, 0, "Instances_1", oBlackScreen)

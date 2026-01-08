@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"Blackout Brigade",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -47,10 +47,11 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"Blackout Brigade",
   "resources":[
+    {"id":{"name":"oBlackScreen","path":"objects/oBlackScreen/oBlackScreen.yy",},},
     {"id":{"name":"oButton1","path":"objects/oButton1/oButton1.yy",},},
     {"id":{"name":"oButton2","path":"objects/oButton2/oButton2.yy",},},
     {"id":{"name":"oButton3","path":"objects/oButton3/oButton3.yy",},},
@@ -78,6 +79,7 @@
     {"id":{"name":"rmNight","path":"rooms/rmNight/rmNight.yy",},},
     {"id":{"name":"rmStartup","path":"rooms/rmStartup/rmStartup.yy",},},
     {"id":{"name":"sndCheckSound","path":"sounds/sndCheckSound/sndCheckSound.yy",},},
+    {"id":{"name":"sBlackScreen","path":"sprites/sBlackScreen/sBlackScreen.yy",},},
     {"id":{"name":"sButton1","path":"sprites/sButton1/sButton1.yy",},},
     {"id":{"name":"sButton2","path":"sprites/sButton2/sButton2.yy",},},
     {"id":{"name":"sButton3","path":"sprites/sButton3/sButton3.yy",},},
